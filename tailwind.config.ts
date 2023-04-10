@@ -1,10 +1,11 @@
 import { type Config } from "tailwindcss";
 
 export default {
+  darkMode: ["class", '[data-theme="dark"]'],
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      body: ["DM Sans, sans-serif"],
+      sans: ["DM Sans, sans-serif"],
       heading: ["Marcellus, serif"],
     },
     extend: {
